@@ -1,0 +1,13 @@
+Kernel hacking ->
+    printk and dmesg option -> 
+        Default message log level 6
+        Default console log level 12
+    Collect scheduler debugging info
+    Lock Debugging ->
+        log usage statistics
+    KGDB: Kernel debugger
+    Sample Kernel Code
+    Compile-time checks and compiler options ->
+        Compile the kernel with debug info
+        Provide gdb scripts for kernel debugging
+        Generate readable assembler code

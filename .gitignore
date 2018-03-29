@@ -1,0 +1,3 @@
+initrd*
+linux*
+!initrd.img-nixos
