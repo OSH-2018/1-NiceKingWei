@@ -5,7 +5,6 @@ gdb -ex $safe \
     -ex "set arch i386:x86-64:intel" \
     -ex "target remote localhost:1234" \
     -ex "b start_kernel" \
-    -ex "c" \
-    -ex "disconnect" \
-    -ex "set arch i386:x86-64" \
-    -ex "target remote localhost:1234"
+    -ex "b x86_64_start_kernel" \
+    -ex "b cgroup_init_early" \
+    -ex "b cgroup_init"
